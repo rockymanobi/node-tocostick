@@ -1,0 +1,110 @@
+[2014-12-31 15:35:39.396] [DEBUG] app - hoge
+[2014-12-31 15:35:39.397] [INFO] app - hoge
+[2014-12-31 15:37:19.564] [INFO] app - hogehoge
+[2014-12-31 15:37:19.566] [DEBUG] app - hoge
+[2014-12-31 15:37:19.566] [INFO] app - hoge
+[2014-12-31 15:38:17.607] [INFO] app - hogehoge
+[2014-12-31 15:38:17.608] [INFO] app - App START
+[2014-12-31 15:38:19.615] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:38:19.616] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:38:25.621] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:38:29.624] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:38:29.625] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:38:33.627] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:38:37.630] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:38:41.633] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:38:53.640] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:38:57.644] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:38:57.645] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:39:01.648] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:39:05.655] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:39:09.659] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:39:21.668] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:39:25.671] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:39:25.672] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:39:29.678] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:39:33.682] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:39:37.686] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:39:49.693] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:39:53.698] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:39:53.699] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:39:57.702] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:40:01.706] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:40:05.710] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:40:17.714] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:40:21.717] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:40:21.719] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:40:25.723] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:40:29.728] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:40:33.732] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:40:45.738] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:40:49.741] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:40:49.742] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:40:53.743] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:40:57.746] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:41:01.753] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:41:13.763] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:41:17.766] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:41:17.766] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:41:21.769] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:41:25.773] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:41:29.777] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:41:41.788] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:41:45.792] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:41:45.793] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:41:49.796] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:41:53.799] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:41:57.800] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:42:09.807] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:42:13.810] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:42:13.810] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:42:17.814] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:42:21.818] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:42:25.822] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:42:37.833] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:42:41.836] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 15:42:41.837] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:42:45.838] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 15:42:49.843] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:42:53.847] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:45:59.250] [INFO] app - hogehoge
+[2014-12-31 15:45:59.251] [INFO] app - App START
+[2014-12-31 15:46:01.256] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:46:01.257] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:46:07.456] [INFO] app - hogehoge
+[2014-12-31 15:46:07.457] [INFO] app - App START
+[2014-12-31 15:46:09.464] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:46:09.466] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:46:46.615] [INFO] app - hogehoge
+[2014-12-31 15:46:46.622] [INFO] app - App START
+[2014-12-31 15:46:48.629] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:46:48.630] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 15:47:56.759] [INFO] app - hogehoge
+[2014-12-31 15:47:56.767] [INFO] app - App START
+[2014-12-31 15:47:58.773] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 15:47:58.775] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 16:54:49.200] [INFO] app - hogehoge
+[2014-12-31 16:54:49.210] [INFO] app - App START
+[2014-12-31 16:54:51.217] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 16:54:51.218] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 16:56:55.139] [INFO] app - hogehoge
+[2014-12-31 16:56:55.146] [INFO] app - App START
+[2014-12-31 17:09:31.570] [INFO] app - hogehoge
+[2014-12-31 17:09:31.577] [INFO] app - App START
+[2014-12-31 17:09:33.584] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 17:09:33.585] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 17:09:39.589] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 17:09:43.594] [INFO] app - syncStatusasl-stall1:occupied
+[2014-12-31 17:09:43.595] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 17:09:47.597] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 17:09:51.598] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 17:09:55.607] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 17:10:05.456] [INFO] app - hogehoge
+[2014-12-31 17:10:05.464] [INFO] app - App START
+[2014-12-31 17:10:07.472] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 17:10:07.473] [INFO] app - syncStatusasl-stall2:vacant
+[2014-12-31 17:10:13.477] [INFO] app - syncStatusasl-stall2:occupied
+[2014-12-31 17:10:24.885] [INFO] app - hogehoge
+[2014-12-31 17:10:24.891] [INFO] app - App START
+[2014-12-31 17:10:26.898] [INFO] app - syncStatusasl-stall1:vacant
+[2014-12-31 17:10:26.899] [INFO] app - syncStatusasl-stall2:vacant

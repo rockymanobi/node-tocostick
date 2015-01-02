@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "serialport":"latest"
+    "serialport":"latest",
+    "underscore":"latest",
+    "request":"latest",
+    "async":"latest",
+    "log4js":"latest",
+    "config":"latest"
   }
 }
