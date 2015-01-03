@@ -7,7 +7,6 @@ var config = require("config");
 var EventEmitter = require("events").EventEmitter
 var ev = new EventEmitter();
 
-logger.setLevel("TRACE");
 logger.info("App START:info");
 logger.trace("App START:trace");
 
