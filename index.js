@@ -1,5 +1,5 @@
 var SerialPort = require("serialport").SerialPort
-var TweliteStallSensor = require("./src/tweLite.js");
+var TweliteStallSensor = require("./src/twelite.js");
 var TweLiteMonitor = require("./src/alive_monitor.js");
 var HttpSyncer = require("./src/http_syncer.js");
 
@@ -32,7 +32,7 @@ var sensor1 = new TweliteStallSensor({
   syncer: syncer,
 });
 
-var serialPort = new SerialPort("/dev/tty.usbserial-AHXDVMCX", {
+var serialPort = new SerialPort(config.serialPort, {
   baudrate: 115200,
 });
 

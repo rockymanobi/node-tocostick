@@ -1,5 +1,5 @@
 var SerialPort = require("serialport").SerialPort
-var TweliteStallSensor = require("./src/tweLite.js");
+var TweliteStallSensor = require("./src/twelite.js");
 var TweLiteMonitor = require("./src/alive_monitor.js");
 var HttpSyncer = require("./src/http_syncer.js");
 var logger = require('./src/log.js');
@@ -7,7 +7,14 @@ var config = require("config");
 var EventEmitter = require("events").EventEmitter
 var ev = new EventEmitter();
 
-logger.info("App START");
+logger.setLevel("TRACE");
+logger.info("App START:info");
+logger.trace("App START:trace");
+
+process.on('uncaughtException', function(err) {
+    logger.fatal(err);
+    process.exit(1);
+});
 
 var tweLiteDevices = [
   {
@@ -32,19 +39,32 @@ var sensor1 = new TweliteStallSensor({
 
 sensor1.start();
 
+var rcvData = "";
 ev.on('serial-data', function ( data ) {
 
   var st = data.toString();
+  var formedData = "";
+  logger.trace( "chunk : " + st );
+  rcvData += st;
+
+  logger.trace( "rcvData : " + rcvData );
+  if( rcvData.indexOf( ":" ) >= 0 && rcvData.indexOf("\r\n") >= 0){
+    formedData = rcvData.substring( rcvData.indexOf(":") , rcvData.indexOf("\r\n") + 2 );
+    rcvData = "";
+    logger.trace( "FormedData : " + formedData.length + "///" + formedData );
+  }
   // データ長
-  if( !st || st.length !== 51 ) return;
+  if( !formedData || formedData.length !== 51 ) return;
+
+
   // 登録済twe-lightか
   // NOTE: このロジック、将来的にはTweLiteオブジェクトを抽出するようにすべきか。
-  var tweLite = getTweLiteDevice( st );
+  var tweLite = getTweLiteDevice( formedData );
   if ( !tweLite ){  return; }
 
-  sensor1.dataIn( st );
+  sensor1.dataIn( formedData );
 
-  logger.debug("rcv:" + data.toString().replace("\r\n", ""));
+  logger.debug("rcv:" + formedData.replace("\r\n", ""));
 }, 2000);
 
 
@@ -67,8 +87,12 @@ function dummy(){
  * read data from serial port
  */
 function main(){
-  var serialPort = new SerialPort("/dev/tty.usbserial-AHXDVMCX", {
+  var serialPort = new SerialPort(config.serialPort, {
     baudrate: 115200,
+    dataBits: 8,
+    stopBits: 1,
+    parity: 'none',
+    flowControl: false,
   });
   serialPort.on("open", function () {
     serialPort.on('data', function(data) {
