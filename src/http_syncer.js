@@ -92,7 +92,7 @@ module.exports  = (function(){
      */
     ping: function( tweLiteSensor ){
       //TODO: implementation 
-      logger.debug("post ping request : status = " + tweLiteSensor.mode );
+      logger.info("post ping request : status = " + tweLiteSensor.mode );
       var _this = this;
       var options = {
         uri: config.urlRoot + '/sensor_api/v1/sensors/' + tweLiteSensor.deviceInfo.deviceId + '/heart_beat',

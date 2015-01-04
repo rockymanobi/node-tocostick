@@ -5,7 +5,7 @@ module.exports = {
       deviceInfo: {
         deviceId: "asl1",
         deviceKey: "aslpass",
-        pingInterval: 10000,  /** msec */
+        pingInterval: 30000,  /** msec */
         timeout: 30000,  /** msec */
       },
       stalls: [
@@ -47,7 +47,7 @@ module.exports = {
         }
       ],
       "levels": {
-        system: "DEBUG"
+        system: "INFO"
       }
     }
   }
