@@ -63,7 +63,7 @@ ev.on('serial-data', function ( data ) {
 
   sensor1.dataIn( formedData );
 
-  logger.debug("rcv:" + formedData.replace("\r\n", ""));
+  logger.trace("rcv:" + formedData.replace("\r\n", ""));
 }, 2000);
 
 

@@ -71,7 +71,7 @@ module.exports  = (function(){
 
       // Runningモード以外の場合はStallを更新しない
       if( this.mode !== TweliteStallSensor.MODE.running ){ 
-        logger.debug("signal detected while not running");
+        logger.trace("signal detected while not running");
         return false;
       }
 
